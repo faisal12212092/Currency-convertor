@@ -1,0 +1,87 @@
+.box{
+border: 5px solid white;
+border-radius: 15px;
+height: 460px;
+width: 380px;
+padding: 20px;
+line-height: 1;
+margin-top: 5rem;
+background-color: rgba(5, 4, 4, 0.121);
+box-shadow: 20px 20px 20px rgb(84, 36, 36); /* White shadow with a bit of transparency */
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpaperaccess.com/full/2981193.jpg");
+}
+
+input
+{
+    border-radius: 12px;
+    font-size: 0.95rem;
+    width: 100%;
+    margin: 0 0 0 0;
+    height: 7%;
+    padding-left: 8px;
+}
+
+input:hover
+{
+    background-color: rgb(203, 189, 221);
+}
+
+.c-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px ;
+    color: white;
+    
+}
+
+button{
+    width:100%;
+    height: 10%;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 4rem;
+    border-radius: 20px;
+    background-color: rgb(119, 53, 216);
+}
+button:hover
+{
+    background-color: rgb(143, 12, 230);
+    cursor: pointer;
+}
+.img-box
+{
+    /* border: 1px solid rgb(23, 21, 21); */
+    height: 39px;
+    width: 110px;
+    display: flex;
+    border-radius: 20px;
+    padding-left: 7px;
+    background-color: white;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+}
+select
+{   border: 1px solid rgb(224, 217, 217);
+    border-radius: 6px;
+    height: 50%;
+    margin: 11px 2px 0 0;
+    width: 55%;
+
+}
+
+#final
+{
+    margin-top:9px ;
+}
